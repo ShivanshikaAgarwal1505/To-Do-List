@@ -1,20 +1,38 @@
- * {
-     font-family: 'Lato', sans-serif;
-     /* font-family: 'Taprom', cursive; */
-     font-size: large;
-     font-weight: 900;
-     color: aliceblue;
+ body {
+    font-family: Arial, sans-serif;
  }
- #logo{
-    font-weight: bolder;
+
+ #app {
+    max-width: 400px;
+    margin: 0 auto;
  }
- .b{
-    background-color: #FC4445;
+
+ ul {
+    list-style-type: none;
+    padding: 0;
  }
- .ul {
-     list-style: none;
+
+ li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    padding: 10px;
  }
- .ul>li {
-    float: left;
-    margin-right: 170px;   
+
+ .delete-button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+ }
+
+ .complete-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
  }

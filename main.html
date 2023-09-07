@@ -16,36 +16,23 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lato:wght@100&family=Taprom&display=swap" rel="stylesheet">
     
-        <link rel="icon" href="./Dtafalonso-Android-Lollipop-Calculator.512.png" type="image/x-icon" />
+        <!-- <link rel="icon" href="./Dtafalonso-Android-Lollipop-Calculator.512.png" type="image/x-icon" /> -->
         <link rel="stylesheet" href="./todocss.css"/>
+        <script src="./script.js"></script>
         <title>
             To-Do
         </title>
 
     </head>
     <body>
-        <div class="container-fluid p-0 main">
-            <nav class="navbar navbar-expand-lg main b fixed-top py-3" id="dynamic">
-                <!-- logo -->
-                <h3 class="logo mr-5" id="logo">TO-DO LIST</h3>
-                <!-- toggler icon -->
-                <button type="button" class="navbar-toggler navbar-dark" data-toggle="collapse" data-target="#collapsibleNavbar">
-                    <!-- <span class="navbar-toggler-icon"></span> -->
-                    <div class=" icon nav-icon-5">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </button>
-                <!-- tab list -->
-                <div class="collapse navbar-collapse ml-5" id="collapsibleNavbar">
-                    <ul class="ul">
-                        <li>1</li>
-                        <li>2</li>
-                        <li>3</li>
-                    </ul>
-                </div>
-            </nav>
+        
+        <div id="app">
+            <h1>To-Do List</h1>
+            <input type="text" id="taskInput" placeholder="Add a new task">
+            <button onclick="addTask()">Add</button>
+            <ul id="taskList">
+                <!-- Tasks will be added here -->
+            </ul>
         </div>
     </body>
 </html>
