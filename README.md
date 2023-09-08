@@ -8,6 +8,8 @@ Features-
   3. Delete tasks.
   4. Expandable code.
 
+![image info](./To-Do-List.jpg)
+
 Future-
   1. Allow users to create accounts.
   2. Save ttheir To-Do List.
