@@ -10,8 +10,8 @@ function addTask() {
   const li = document.createElement("li");
   li.innerHTML = `
                 <span>${taskText}</span>
-                <button class="complete-button" onclick="completeTask(this)">Complete</button>
-                <button class="delete-button" onclick="deleteTask(this)"><i class="fa-solid fa-trash" style="color: #eaeaeb;"></i></button>
+                <button class="btn btn-success mx-2 complete-button" onclick="completeTask(this)" class="">Complete</button>
+                <button class="btn btn-danger py-2 delete-button" onclick="deleteTask(this)"><i class="fa-solid fa-trash" style="color: #eaeaeb;"></i></button>
             `;
   taskList.appendChild(li);
 

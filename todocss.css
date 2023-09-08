@@ -1,12 +1,28 @@
  body {
-    font-family: Arial, sans-serif;
+   font-family: Arial, sans-serif;
+   display: flex;
+   position: relative;
+   justify-content: center;
+   background-image: url("./damian-mccoig-2HqpqSqy0zg-unsplash.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   /* align-items: center; */
  }
 
  #app {
-    max-width: 400px;
-    margin: 0 auto;
- }
-
+   height: fit-content;
+   box-shadow: 0 0 10px 2px rgb(186, 185, 185);
+   margin-top: 20vh;
+   border-radius: 7px;
+   background-color: rgba(255, 255, 255, 0.4);
+   -webkit-backdrop-filter: blur(5px);
+   backdrop-filter: blur(5px);
+   }
+#taskInput{
+   height: 40px;
+   border-radius: 5px;
+   border: none;
+}
  ul {
     list-style-type: none;
     padding: 0;
@@ -19,20 +35,4 @@
     border: 1px solid #ccc;
     margin: 5px 0;
     padding: 10px;
- }
-
- .delete-button {
-    background-color: #ff6347;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
- }
-
- .complete-button {
-    background-color: #4caf50;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
  }
